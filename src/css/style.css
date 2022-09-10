@@ -1,0 +1,164 @@
+.dashboard-text {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.dashboard {
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.label-container {
+    text-align: left;
+}
+
+.padding-left-0 {
+    padding-left: 0 !important;
+}
+
+
+
+.kpi-container {
+    max-width: 230px;
+    text-align: left;
+}
+
+.kpi-container .MuiAvatar-circular {
+    border-radius: 30px;
+    background: blue;
+}
+
+.kpi-container .MuiCardHeader-subheader {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.small-size {
+    font-size: 12px;
+    vertical-align: bottom;
+    color: green
+}
+
+.kpi-container .MuiCardHeader-action {
+    align-self: end;
+}
+
+.user-card .MuiCardHeader-root {
+    height: 100px;
+    background: blue;
+    color: white;
+}
+
+.user-card .MuiCardHeader-action svg {
+    color: white;
+}
+
+.user-card .profile-img {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.user-card .profile-img img {
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+}
+
+.user-card .product-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.user-card .MuiDivider-root {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-card .activities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.user-card .activities .time-section {
+    padding: 8px;
+    background: lightgray;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.user-card .activities .activity-text {
+    align-self: center
+}
+
+.spacer {
+    padding-right: 42px;
+}
+
+.charts-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.label-container {
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+}
+
+.widget-container {
+    background: white;
+    margin: 20px !important;
+    margin-right: 0px !important;
+}
+
+.user-top-products {
+    margin: 10px !important;
+    background: white;
+    margin-right: 0 !important;
+}
+
+.user-stats {
+    margin: 10px !important;
+    background: white;
+    margin-right: 0 !important;
+}
+
+.user-activity {
+    margin: 10px !important;
+    background: white;
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+.body-background {
+    background-color: #f8f8fb !important;
+}
+.top-products{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.label-container{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-space{
+    margin-left: 20px;
+}
